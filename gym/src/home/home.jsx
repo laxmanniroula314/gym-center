@@ -1,10 +1,14 @@
 import React from 'react'
+import Career from '../Career.jsx' ;
 
 
-const home = () => {
+const Home = () => {
   return (
-    <div>home</div>
+    <div>
+      <Career />
+    </div>
+
   )
 }
 
-export default home
+export default Home

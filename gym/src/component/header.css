@@ -1,7 +1,61 @@
-.header{
-  background-color: #222;
-  height: 36px;
-  padding: 8px 32px 8px 16px;
+.header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+}
+
+.nav-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  color: white;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: darkred;
+}
+
+.search-box input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }

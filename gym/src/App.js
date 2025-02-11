@@ -1,22 +1,19 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./home/Home.jsx";
+import Career from "./Career.jsx";
+import Header from "./component/Header.jsx";
 
-import './App.css';
-import React from 'react';
-import { Route, Router, Routes } from "react-router-dom";
-import home from "./home/home.jsx";
-
-
-function App() {
+const App = () => {
   return (
-    <>
     <Router>
-      <header/>
+      <Header/>
       <Routes>
-          <Route path="/" element={<home/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Career" element={<Career />} />
       </Routes>
     </Router>
-    </>
-    
-  )
-}
+  );
+};
 
 export default App;
