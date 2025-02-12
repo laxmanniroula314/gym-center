@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #27ae60;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url("../assets/gym.jpg") no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .hero-stats div {
+    text-align: center;
+  }
+  
+  .hero-stats h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .reasons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .reason-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reason-card .icon {
+    font-size: 2.5rem;
+    color: #27ae60;
+  }
+  
+  /* Fitness Goals Section */
+  .fitness-goals {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f4f4f4;
+  }
+  
+  .fitness-goals .text {
+    flex: 1;
+  }
+  
+  .fitness-goals .image img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+
+/* Explore Products */
+  .explore-products {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .highlight {
+    color: #16a085;
+  }
+  
+  .see-all {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .see-all:hover {
+    color: darkred;
+  }
+  
+  /* Healthy Body Section */
+  .healthy-body {
+    text-align: center;
+    padding: 50px;
+    background: #27ae60;
+    color: white;
+  }
+  
+  .healthy-body h2 {
+    margin-bottom: 10px;
+  }
+  
+  .healthy-body .btn {
+    background: white;
+    color: #27ae60;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .healthy-body .btn:hover {
+    background: #f4f4f4;
+  }
+  
+  /* Train With Experts */
+  .train-with-experts {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .experts-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .expert-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expert-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .expert-card .btn {
+    margin-top: 10px;
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .expert-card .btn:hover {
+    background: #1e8449;
+  }
+  
+  /* Button Styling */
+  .btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background: #1e8449;
+  }
+  
