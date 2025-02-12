@@ -1,8 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./home/Home.jsx";
-import Career from "./Career.jsx";
+import Home from "./Homepage/Home.jsx";
+
 import Header from "./component/Header.jsx";
+import Footer from "./component/Footer.jsx";
+import Gallery from "./Gallerypage/Gallery.jsx";
+import About from "./Aboutpage/About.jsx";
+import Community from "./Communitypage/Community.jsx";
 
 const App = () => {
   return (
@@ -10,8 +14,13 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Career" element={<Career />} />
+        <Route path="/Community" element={<Community />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/About" element={<About/>} />
+
+        
       </Routes>
+      <Footer />
     </Router>
   );
 };

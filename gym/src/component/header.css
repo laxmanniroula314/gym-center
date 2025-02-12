@@ -1,61 +1,153 @@
-.header {
-  background-color: #f8f8f8;
-  padding: 10px 20px;
-}
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a2a1a; /* Dark green theme */
+  padding: 15px 40px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
   gap: 20px;
-  font-size: 14px;
 }
 
-.nav-item {
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
   text-decoration: none;
-  color: black;
-  padding: 8px 12px;
-  transition: background 0.3s ease;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
-.nav-item:hover {
-  background-color: #ddd;
+.nav-links a:hover,
+.nav-links .active {
+  color: #3ddb3d; /* Highlight green */
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-btn {
+  background: #5ca65c;
+  border: none;
+  padding: 8px 15px;
+  color: white;
   border-radius: 5px;
-}
-
-.dropdown {
-  position: relative;
   cursor: pointer;
 }
 
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: red;
+.login-btn:hover {
+  background: #4d914d;
+}
+
+.cart-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+/* ***************footer sections css start from here ******************/
+.footer {
+  background: #111; /* Dark background */
   color: white;
-  width: 200px;
+  padding: 40px 60px;
+}
+
+.footer-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.dropdown-item {
-  padding: 10px;
-  text-decoration: none;
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
   color: white;
-  transition: background 0.3s ease;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-.dropdown-item:hover {
-  background-color: darkred;
+.footer-section ul li a:hover {
+  color: #3ddb3d; /* Green highlight */
 }
 
-.search-box input {
-  padding: 5px 10px;
-  border: 1px solid #ccc;
+.newsletter p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 5px;
+}
+
+.newsletter-form input {
+  padding: 8px;
+  flex: 1;
   border-radius: 5px;
+  border: none;
+}
+
+.newsletter-form button {
+  background: #3ddb3d;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background: #2ea02e;
+}
+
+/* Social Media Icons */
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #3ddb3d; /* Green highlight */
 }

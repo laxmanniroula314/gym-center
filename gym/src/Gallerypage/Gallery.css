@@ -1,0 +1,75 @@
+.gallery-container {
+    text-align: center;
+  }
+  
+  .gallery-header-img{
+    background: url('../assets/gym.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  
+  }
+  .gallery-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .gallery-btn {
+    background: #3ddb3d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+/****************products grid starts from here *******************/
+
+.product-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: #222;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card .buy-btn {
+    background: #3ddb3d;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+
+  .load-more{
+    margin: 10px;
+    background: #15c715;
+    color: white;
+    padding:0.8rem 3rem;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+
+  }

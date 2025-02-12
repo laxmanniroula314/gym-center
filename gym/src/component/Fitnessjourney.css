@@ -1,0 +1,17 @@
+.fitness-journey {
+    justify-content: center;
+    text-align: center;
+    background: #222;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .start-btn {
+    background: #3ddb3d;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

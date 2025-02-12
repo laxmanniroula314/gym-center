@@ -1,10 +1,12 @@
-import React, { useState } from "react";
-import "./Career.css";
-import { FaUserTie, FaUsers } from "react-icons/fa";
-import lax from "./assets/lax.png";
-
+import React from 'react'
+//import React, { useState } from "react";
+//import "./Career.css";
+//import { FaUserTie, FaUsers } from "react-icons/fa";
+//import lax from "./assets/lax.png";
+ 
+  {/*{
 const peopleData = [
-  {
+
     name: "Chirag Gautam, Area Manager, Crop Production",
     quote: "It's a gateway to career opportunities. In such a short span of my career, I have learnt enormously from international exposure, high performance culture and the faith of company on young talent.",
     image: "./assets/person1.jpg",
@@ -21,7 +23,10 @@ const peopleData = [
   },
 ];
 
+*/}
+{/*
 const Career = () => {
+
   const [selectedSection, setSelectedSection] = useState("WORKING AT MAHINDRA HZPC");
 
   const sections = {
@@ -49,11 +54,13 @@ const Career = () => {
 
   return (
     <div className="career-container">
-      {/* Header Image */}
+  */}
+    
+      {/* Header Image 
       <img src={lax}  className="header-image" />
 
       <div className="content-wrapper">
-        {/* Sidebar Navigation */}
+        
         <div className="sidebar">
           {Object.keys(sections).map((section) => (
             <button
@@ -66,7 +73,7 @@ const Career = () => {
           ))}
         </div>
 
-        {/* Main Content Section */}
+       Main Content Section 
         <div className="main-content" key={selectedSection}>
           <div className="breadcrumb">
             <FaUserTie /> Home ❯
@@ -98,3 +105,16 @@ const Career = () => {
 };
 
 export default Career;
+*/}
+
+
+
+
+
+const Career = () => {
+  return (
+    <div></div>
+  )
+}
+
+export default Career
