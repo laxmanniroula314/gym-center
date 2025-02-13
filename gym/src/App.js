@@ -7,6 +7,7 @@ import Footer from "./component/Footer.jsx";
 import Gallery from "./Gallerypage/Gallery.jsx";
 import About from "./Aboutpage/About.jsx";
 import Community from "./Communitypage/Community.jsx";
+import Contactus from "./Contactuspage/Contactus.jsx";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/Community" element={<Community />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/About" element={<About/>} />
+        <Route path="/Contact" element={<Contactus />} />
 
         
       </Routes>
