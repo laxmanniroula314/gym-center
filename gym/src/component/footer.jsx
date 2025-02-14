@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Fitnessjourney from "./Fitnessjourney";
+import logo from "../assets/logo.jpg";
 
 const Footer = () => {
   
@@ -11,7 +12,11 @@ const Footer = () => {
       <div className="footer-container">
         {/* Logo */}
         <div className="footer-section">
-          <h2>LOGO</h2>
+        <img
+          src={logo}
+           alt="Gym Logo"
+          className="logo-img"
+        />
         </div>
 
         {/* Quick Links */}
@@ -39,7 +44,7 @@ const Footer = () => {
         {/* Newsletter */}
         <div className="footer-section newsletter">
           <h3>NEWSLETTER</h3>
-          <p>What To Know What’s Next For You? Subscribe To Our Newsletter For Any Update!</p>
+          <p>What To Know What’s Next For You?  Subscribe To Our Newsletter For Any Update!</p>
           <div className="newsletter-form">
             <input type="email" placeholder="Enter your email" />
             <button>Subscribe</button>

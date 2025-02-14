@@ -87,7 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     background: #f4f4f4;
   }
   
@@ -96,7 +96,7 @@ body {
   }
   
   .fitness-goals .image img {
-    width: 500px;
+    width: 600px;
     border-radius: 10px;
   }
   
@@ -150,11 +150,18 @@ body {
     margin-bottom: 10px;
   }
   
+ 
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+
+}
   .healthy-body .btn {
     background: white;
     color: #27ae60;
     border: none;
-    padding: 10px 20px;
+    padding: 13px 22px;
     cursor: pointer;
     font-size: 1rem;
     border-radius: 5px;
@@ -202,7 +209,7 @@ body {
   }
   
   .expert-card .btn:hover {
-    background: #1e8449;
+    background: #138a13;
   }
   
   /* Button Styling */
@@ -217,6 +224,6 @@ body {
   }
   
   .btn:hover {
-    background: #1e8449;
+    background: #138a13;
   }
   

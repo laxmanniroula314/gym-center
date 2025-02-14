@@ -18,7 +18,10 @@ const Aboutgym = () => {
           expert trainers, and a variety of classes, we provide a supportive environment where everyone, from 
           beginners to pros, can thrive. Your journey to a stronger, healthier you starts here.
         </p>
+        <div className="button-container">
         <button className="explore-btn">Explore more →</button>
+        </div>
+        
       </div>
     </div>
   );

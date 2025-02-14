@@ -8,7 +8,6 @@ import "./Community.css";
 const Community = () => {
   return (
     <>
-     
       <div className="community-container">
         <Customerreview />
         <Communityinvolment />

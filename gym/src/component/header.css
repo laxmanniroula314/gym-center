@@ -1,16 +1,25 @@
+/****************header sections css*******************/
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1a2a1a; /* Dark green theme */
+  background: #091309; /* Dark green theme */
   padding: 15px 40px;
   color: white;
 }
 
+
 .logo {
-  font-size: 20px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
 
 .nav-links {
   list-style: none;
@@ -25,39 +34,67 @@
 .nav-links a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   transition: color 0.3s;
 }
 
 .nav-links a:hover,
 .nav-links .active {
-  color: #3ddb3d; /* Highlight green */
+  color: #138a13;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
+/* Login Button with Profile Icon */
 .login-btn {
-  background: #5ca65c;
+  background: #339233;
   border: none;
   padding: 8px 15px;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
 }
 
 .login-btn:hover {
-  background: #4d914d;
+  background: #138a13;
+}
+
+.profile-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Cart Section */
+.cart-section {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .cart-icon {
-  font-size: 20px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
 }
 
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
 
 
 
@@ -101,10 +138,11 @@
 }
 
 .footer-section ul li a:hover {
-  color: #3ddb3d; /* Green highlight */
+  color: #138a13;
 }
 
 .newsletter p {
+  text-align: center;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -132,7 +170,7 @@
 }
 
 .newsletter-form button:hover {
-  background: #2ea02e;
+  background: #138a13;
 }
 
 /* Social Media Icons */
@@ -149,5 +187,5 @@
 }
 
 .social-media a:hover {
-  color: #3ddb3d; /* Green highlight */
+  color: #138a13;
 }

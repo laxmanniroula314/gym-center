@@ -8,6 +8,7 @@ import Gallery from "./Gallerypage/Gallery.jsx";
 import About from "./Aboutpage/About.jsx";
 import Community from "./Communitypage/Community.jsx";
 import Contactus from "./Contactuspage/Contactus.jsx";
+import Trainers from "./Aboutpage/Trainers.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/About" element={<About/>} />
         <Route path="/Contact" element={<Contactus />} />
+        <Route path="/Trainers" element={<Trainers />} />
 
         
       </Routes>

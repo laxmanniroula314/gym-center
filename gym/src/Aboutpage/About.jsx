@@ -10,6 +10,7 @@ const About = () => {
       <div className="about-container">
         <Aboutgym />
         <Trainersections />
+        
       </div>
      
     </>

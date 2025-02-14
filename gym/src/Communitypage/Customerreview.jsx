@@ -1,32 +1,22 @@
 import React from "react";
 
 import "./Community.css";
-import lax from "../assets/lax.png";
-//import customer2 from "../../assets/customer2.jpg";
-//import customer3 from "../../assets/customer3.jpg";
+import fit from "../assets/fit.jpg";
+import cus from "../assets/cus.jpg";
+import logo from "../assets/logo.jpg";
+import adi from "../assets/adi.jpg";
+
+
 
 const reviews = [
-  {
-    name: "Martin Smith",
-    title: "Business Consultant",
-    image: lax,
-    review:
-      "Amazing gym with top-notch equipment and friendly atmosphere! The staff is excellent, facilities are clean, and a variety of classes makes workouts exciting and challenging.",
-  },
-  {
-    name: "Sara Allen",
-    title: "Fitness Coach",
-    image: lax,
-    review:
-      "Amazing gym with top-notch equipment and friendly atmosphere! The staff is excellent, facilities are clean, and a variety of classes makes workouts exciting and challenging.",
-  },
-  {
-    name: "Akane Tendo",
-    title: "Personal Trainer",
-    image: lax,
-    review:
-      "Amazing gym with top-notch equipment and friendly atmosphere! The staff is excellent, facilities are clean, and a variety of classes makes workouts exciting and challenging.",
-  },
+  { name: "Martin Smith", title: "Business Consultant", image: fit, review:"I love this gym! The variety of workouts keeps me engaged, and the staff is always supportive. It’s an amazing place to improve both fitness and mental well-being, with a friendly and welcoming atmosphere.",
+   },
+  {name: "Sara Allen",title: "Fitness Coach",image: adi, review:"A fantastic gym that truly focuses on individual growth! The trainers are knowledgeable, the equipment is always in great shape, and the positive environment makes every workout enjoyable and motivating.",
+    },
+  { name: "John Doe", title: "Software Engineer", image: logo, review:"Amazing gym with top-notch equipment and friendly atmosphere! The staff is excellent, facilities are clean, and a variety of classes makes workouts exciting and challenging.",
+    },
+  { name: "Yumi Fujiwara", title: "Nutrition & Fitness Expert", image: cus, review:"Highly recommend this gym! The environment is motivating, the trainers are knowledgeable, and I’ve seen great progress in my fitness journey. They truly care about helping people reach their goals.",
+     },
 ];
 
 const Customerreviews = () => {

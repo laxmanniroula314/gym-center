@@ -1,6 +1,6 @@
 // src/components/Home/TrainWithExperts.js
 import React from "react";
-import lax from "../assets/lax.png";
+import lax from "../assets/lax.jpg";
 import "./Home.css";
 
 const experts = [

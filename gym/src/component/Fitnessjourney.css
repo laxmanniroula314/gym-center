@@ -1,17 +1,86 @@
 .fitness-journey {
-    justify-content: center;
-    text-align: center;
-    background: #222;
-    padding: 50px;
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 40px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  max-width: 60%;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #3ddb3d; 
+}
+
+p {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.start-btn {
+  background: #d84a4a;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
   
-  .start-btn {
-    background: #3ddb3d;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background: #e03030;
+}
+
+.image-container {
+  max-width: 60%;
+}
+
+.image-container img {
+  width: 100%;
+  height: fit-content;
+}
+
+/* Decorative elements 
+.fitness-journey::before,
+.fitness-journey::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.fitness-journey::before {
+  background: #3ddb3d;
+  top: 20%;
+  left: 10%;
+}
+
+.fitness-journey::after {
+  background: #ff4d4d;
+  bottom: 15%;
+  right: 10%;
+}
+*/

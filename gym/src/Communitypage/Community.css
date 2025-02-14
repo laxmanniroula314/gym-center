@@ -28,15 +28,41 @@
   }
   
   .review-image {
-    width: 80px;
-    height: 80px;
+    width: 80%;
+    height: 200px;
     border-radius: 50%;
+  }
+
+  h3{
+    font-weight: bold ;
+   font-size: 25px;
+   padding: 0;
+  }
+  .review-title{
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #00aa00;
+  }
+ .review-text{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+ }
+
+  /******************community involmet css starts here ***************/
+  .community-involvement {
+    padding: 50px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 15px;
   }
   
   .involvement-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
   }
   
   .involvement-card {
@@ -44,18 +70,33 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(25% - 10px); 
+    min-width: 300px;
   }
   
+  
   .green-text {
+    font-size: 20px;
+    text-align: center;
     color: #00aa00;
+    font-weight: 600;
   }
+
   
   .highlight {
     color: #00cc00;
   }
+
+  /****************event and description*********/
   
-  .events-collaboration p {
-    margin-top: 10px;
-    color: #555;
-  }
   
+
+/* General Styles for the Eventscollaboration section */
+
+.event-description {
+  text-align: center;
+  padding: 3px 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
