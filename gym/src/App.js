@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Homepage/Home.jsx";
 import Header from "./component/Header.jsx";
@@ -12,11 +12,15 @@ import Cart from "./Cartpage/Cart.jsx";
 import LoginSignup from "./component/LoginSignup.jsx";
 
 const App = () => {
-  const [cartItems, setCartItems] = useState([]);
-
+  const [cartItems, setCartItems] = useState(() => {
+    return JSON.parse(localStorage.getItem("cartItems")) || [];
+  });
+  useEffect(() => {
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }, [cartItems]);
   
   const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
+    setCartItems((prevItems) => [...prevItems, product]); 
   };
 
   return (
