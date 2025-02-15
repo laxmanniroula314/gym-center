@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Homepage/Home.jsx";
-import Header from "./component/Header.jsx";
-import Footer from "./component/Footer.jsx";
+import Header from "./Component/Header.jsx";
+import Footer from "./Component/Footer.jsx";
 import Gallery from "./Gallerypage/Gallery.jsx";
 import About from "./Aboutpage/About.jsx";
 import Community from "./Communitypage/Community.jsx";
 import Contactus from "./Contactuspage/Contactus.jsx";
 import Trainers from "./Aboutpage/Trainers.jsx";
 import Cart from "./Cartpage/Cart.jsx";  
-import LoginSignup from "./component/LoginSignup.jsx";
+import LoginSignup from "./Component/LoginSignup.jsx";
 
 const App = () => {
   const [cartItems, setCartItems] = useState(() => {
