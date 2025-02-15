@@ -17,10 +17,18 @@ const Contactform = () => {
   return (
     <div className="contact-form">
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} required />
-        <input type="text" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
-        <input type="email" name="email" placeholder="E Mail" value={formData.email} onChange={handleChange} required />
-        <textarea name="message" placeholder="Message" value={formData.message} onChange={handleChange} required />
+        <label htmlFor="name" className="form-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} required />
+        
+        <label htmlFor="phone" className="form-label">Phone</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" value={formData.phone} onChange={handleChange} required />
+        
+        <label htmlFor="email" className="form-label">E-Mail</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} required />
+        
+        <label htmlFor="message" className="form-label">Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message" value={formData.message} onChange={handleChange} required />
+        
         <button type="submit">Submit</button>
       </form>
     </div>

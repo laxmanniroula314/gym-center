@@ -6,7 +6,6 @@ const Contactheader = () => {
     <>
     <div className="contact-header">
       <h1>CONTACT US</h1>
-      
     </div>
 
     </>

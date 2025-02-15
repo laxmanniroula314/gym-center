@@ -1,116 +1,167 @@
+/***************************contact page****************************/
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 40px;
 }
 
 .contact-header {
-    width: 100%;
-    background: url('../assets/gym.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
+  width: 100%;
+  background: url('../assets/gym.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
 }
 
 .contact-header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-size: 2.8rem;
+  font-weight: bold;
 }
 
+/* Contact Content */
 .contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
 }
 
+/* Contact Form */
 .contact-form {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: rgb(170, 167, 167);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
 }
-
+.contact-form label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0e0d0d;
+  margin-top: 10px;
+  display: block;
+  text-align: left;
+  width: 90%;
+}
 .contact-form input,
 .contact-form textarea {
-    width: 90%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #308534;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .contact-form button {
-    background: #ff7f00;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
+  background: #41c441;
+  color: white;
+  padding: 12px 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .contact-form button:hover {
-    background: #e67300;
+  background: #129c12;
 }
 
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    width: 100%;
+/* Contact Details Styling */
+.contact-details {
+  width: 48%;
+  max-width: 500px;
+  text-align: left;
+  padding: 40px;
+  background: #dddbdb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info div {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
+.contact-details h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.contact-info i {
-    font-size: 1.5rem;
-    margin-right: 10px;
-    color: #ff7f00;
+.contact-details .highlight {
+  color: #50c050;
 }
-/*
+
+.contact-details p {
+  font-size: 16px;
+  color: #141414;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #0e0d0d;
+  margin: 10px 0;
+}
+
+.detail-item svg {
+  margin-right: 10px;
+  color: #38cc38;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  color: #50c050;
+  transition: color 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #095309;
+}
+
+/* Google Map Styling */
 .map-container {
-    width: 100%;
-    max-width: 1200px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
 }
-/*
 .map-container iframe {
-    width: 100%;
-    max-width: 1000px;
-    height: 400px;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  border-radius: 8px;
 }
-
-
-
-.property-listing {
-    text-align: center;
-    width: 60%;
-   padding-bottom: 20px;
-    
-  }
-  
-  .property-listing  {
-    font-size: 22px;
-    font-weight: bold;
-    color: #222;
-    
-  }
-  */

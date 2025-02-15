@@ -13,8 +13,9 @@ const Contactus = () => {
         <div className="contact-content">
           <Contactdetails />
           <Contactform />
-          <Map />
+          
         </div>
+        <Map />
       </div>
     </>
   );

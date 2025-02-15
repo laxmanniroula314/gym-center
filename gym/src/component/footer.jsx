@@ -21,7 +21,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="footer-section">
-          <h3>Quick links</h3>
+          <h3  className="white-ft">Quick links</h3>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About us</a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
 
         {/* Support */}
         <div className="footer-section">
-          <h3>Support</h3>
+          <h3  className="white-ft">Support</h3>
           <ul>
             <li><a href="/help">Help center</a></li>
             <li><a href="/privacy">Privacy and cookies policy</a></li>
@@ -43,7 +43,7 @@ const Footer = () => {
 
         {/* Newsletter */}
         <div className="footer-section newsletter">
-          <h3>NEWSLETTER</h3>
+          <h3 className="white-ft">NEWSLETTER</h3>
           <p>What To Know What’s Next For You?  Subscribe To Our Newsletter For Any Update!</p>
           <div className="newsletter-form">
             <input type="email" placeholder="Enter your email" />

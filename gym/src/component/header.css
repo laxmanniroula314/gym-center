@@ -142,9 +142,14 @@
 .footer-section ul li a:hover {
   color: #138a13;
 }
-
+.white-ft{
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
 .newsletter p {
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   margin-bottom: 10px;
 }

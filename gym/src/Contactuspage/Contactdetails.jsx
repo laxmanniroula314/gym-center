@@ -9,9 +9,9 @@ const Contactdetails = () => {
       <p>They're personally inspected by our team and carefully selected so you'll find only the most special spaces.</p>
       
       <div className="details">
-        <div className="detail-item"><FaMapMarkerAlt /> <span>Our Address</span></div>
+        <div className="detail-item"><FaMapMarkerAlt /> <span>Biratnagar-11, Morang Nepal</span></div>
         <div className="detail-item"><FaPhoneAlt /> <span>+1 470 012 3456</span></div>
-        <div className="detail-item"><FaEnvelope /> <span>support@website.com</span></div>
+        <div className="detail-item"><FaEnvelope /> <span>newfitgym@gmail.com</span></div>
       </div>
 
       <h3>Follow us on</h3>
