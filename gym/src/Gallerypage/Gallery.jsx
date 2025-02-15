@@ -3,13 +3,13 @@ import Galleryheader from "./Galleryheader.jsx";
 import "./Gallery.css";
 import Productsgrid from './Productsgrid.jsx';
 
-const Gallery = () => {
+const Gallery = ({ addToCart }) => {
   return (
     <>
       
       <div className="gallery-container">
         <Galleryheader />
-        <Productsgrid/>
+        <Productsgrid addToCart={addToCart}/>
        
       </div>
       

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Fitnessjourney.css";
 import fit from "../assets/fit.jpg";
+import { Link } from "react-router-dom";
 const Fitnessjourney = () => {
   return (
     <div className="fitness-journey">
@@ -13,7 +14,9 @@ const Fitnessjourney = () => {
           From fat burning to strength training and everything in between.
         </p>
         <div className="button-container">
+          <Link to="LoginSignup">
         <button className="start-btn">Signup now</button>
+        </Link>
         </div>
       </div>
       <div className="image-container">

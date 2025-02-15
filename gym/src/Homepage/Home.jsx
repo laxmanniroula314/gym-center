@@ -3,7 +3,6 @@ import React from "react";
 import Herosection from "./Herosection";
 import Whychooseus from "./Whychooseus";
 import Fitnessgoal from "./Fitnessgoal";
-import Exploreproduct from "./Exploreproduct";
 import Healthybody from "./Healthybody";
 import Trainwithexperts from "./Trainwithexperts";
 
@@ -16,7 +15,6 @@ const Home = () => {
       <Herosection />
       <Whychooseus />
       <Fitnessgoal />
-      <Exploreproduct />
       <Healthybody />
       <Trainwithexperts />
       
