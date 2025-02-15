@@ -30,13 +30,15 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    
   }
   
   .hero-content h1 {
+    padding-top: 180px;
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
+    color:white;
   }
   
   .hero-stats {
@@ -48,11 +50,13 @@ body {
   
   .hero-stats div {
     text-align: center;
+     font-weight: 600;
   }
   
   .hero-stats h2 {
     font-size: 2rem;
     font-weight: bold;
+    color:#03fc41;
   }
   
   /* Why Choose Us */
@@ -140,41 +144,90 @@ body {
   
   /* Healthy Body Section */
   .healthy-body {
-    text-align: center;
-    padding: 50px;
-    background: #27ae60;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+    background: #d1d3d2;
   }
   
-  .healthy-body h2 {
+  .healthy-body-container {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    gap: 40px;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height:300px;
+    border-radius: 8px;
+  }
+  
+  .text-section {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .text-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .highlight {
+    color: #138a44;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    color: #181717;
+    font-weight: 400;
     margin-bottom: 10px;
   }
   
- 
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-
-}
-  .healthy-body .btn {
-    background: white;
+  .quote {
+    font-size: 18px;
+    font-weight: bold;
     color: #138a44;
-    border: none;
-    padding: 13px 22px;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 5px;
   }
   
-  .healthy-body .btn:hover {
-    background: #f4f4f4;
+  .startbtn {
+    align-items: center;
+    background: #1dad41;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .startbtn:hover {
+    background: #333;
   }
   
   /* Train With Experts */
+
   .train-with-experts {
     text-align: center;
-    padding: 50px;
+    padding: 50px 10%;
+    background: #a5d4b7;
+  }
+  
+  .train-with-experts h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #138a44;
   }
   
   .experts-container {
@@ -185,45 +238,46 @@ body {
   }
   
   .expert-card {
-    background: #f9f9f9;
+    background: #d3d2d2;
     padding: 20px;
     border-radius: 10px;
-    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
   }
   
   .expert-card img {
     width: 100%;
-    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
   }
   
-  .expert-card .btn {
-    margin-top: 10px;
-    background: #27ae60;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  .expert-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
   
-  .expert-card .btn:hover {
-    background: #138a13;
+  .expert-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
   }
   
-  /* Button Styling */
   .btn {
-    background: #27ae60;
+    background: #138a44;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1rem;
     border-radius: 5px;
+    transition: 0.3s;
   }
   
   .btn:hover {
-    background: #138a13;
+    background: #0f6e36;
   }
   

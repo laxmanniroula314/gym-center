@@ -6,7 +6,7 @@ const Herosection = () => {
   return (
     <div className="hero-section">
       <div className="hero-content">
-        <h1>MAKE YOURSELF <span className="highlight">STRONGER</span> & FITTER FOREVER</h1>
+        <h1>MAKE YOURSELF <span className="highlight">STRONGER & FITTER </span>FOREVER</h1>
         <div className="hero-stats">
           <div>
             <h2>70K+</h2>
